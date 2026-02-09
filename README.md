@@ -1,78 +1,81 @@
-# Python Development – Task Submission
+# Python Development Projects
 
-## Overview
-This repository contains **3 Python projects** completed as part of the assigned task.  
-Each project demonstrates practical usage of Python for **data analysis** and **machine learning**, following beginner-level requirements.
+This repository contains Python programs developed to demonstrate core concepts of
+data analysis, machine learning, and numerical computation using standard Python libraries.
 
 ---
 
-## ✅ Tasks Completed
+## Project Structure
 
-### 1️⃣ Data Analysis & Visualization (CSV + Pandas + Matplotlib)
+python-dev-projects/
+├── README.md
+├── demon_slayer_data_analysis.py
+├── house_price_prediction.py
+└── matrix_tool
+
+
+---
+
+## Projects Included
+
+### 1. Data Analysis and Visualization
 **File:** `demon_slayer_data_analysis.py`
 
-**Description:**
-- Loaded a CSV dataset using **Pandas**
-- Performed basic data analysis such as:
-  - Data inspection
-  - Aggregations and insights
-- Created visualizations using **Matplotlib**, including:
+This script performs basic data analysis on a CSV dataset using **Pandas** and visualizes
+the results using **Matplotlib**.
+
+**Features:**
+- Load and inspect CSV data
+- Perform basic statistical analysis
+- Generate visualizations such as:
   - Bar charts
   - Scatter plots
-- Observed and interpreted patterns from the data
-
-**Objective Achieved:**
-✔ Understanding datasets  
-✔ Extracting insights  
-✔ Visual representation of data  
+- Identify and interpret data patterns
 
 ---
 
-### 2️⃣ House Price Prediction – Linear Regression
+### 2. House Price Prediction (Linear Regression)
 **File:** `house_price_prediction.py`
 
-**Description:**
-- Implemented a **Linear Regression model**
-- Used housing-related features to predict prices
-- Performed:
-  - Data preprocessing
-  - Model training
-  - Prediction output
+This script implements a **Linear Regression model** to predict house prices based on
+input features. It demonstrates a basic machine learning workflow using **Scikit-learn**.
 
-**Objective Achieved:**
-✔ Introduction to Machine Learning  
-✔ Regression concepts  
-✔ Real-world prediction problem  
+**Features:**
+- Data preprocessing
+- Model training using Linear Regression
+- Price prediction based on features
+- Introduction to supervised machine learning concepts
 
 ---
 
-### 3️⃣ Additional Python Task / Practice Implementation
-**File:** `house_price_prediction.py` (alternate / extended version)
+### 3. Matrix Operations Tool
+**File:** `matrix_tool`
 
-**Description:**
-- An extended or refined implementation focusing on:
-  - Code structure
-  - Improved logic
-  - Better readability and experimentation
+This program is a matrix operations utility built using **Python and NumPy**. It allows
+users to perform common matrix calculations through user input.
 
-**Objective Achieved:**
-✔ Code optimization  
-✔ Practice with Python logic  
-✔ Reinforcement of ML concepts  
-
----
-
-## 🛠️ Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+**Features:**
+- Matrix addition and subtraction
+- Matrix multiplication
+- Matrix transpose
+- Determinant calculation
+- Structured output for readability
 
 ---
 
-## ▶️ How to Run the Programs
+## Requirements
 
-1. Install required libraries:
-   ```bash
-   pip install pandas numpy matplotlib scikit-learn
+- Python 3.x
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+
+---
+
+## Installation
+
+Install required dependencies using pip:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
