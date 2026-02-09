@@ -1,4 +1,4 @@
-# Python Development – Internship Task Submission
+# Python Development – Task Submission
 
 This repository contains **three Python projects** completed as part of the **Python Development Internship Task**.  
 The projects demonstrate beginner-level proficiency in **data analysis**, **machine learning**, and **numerical computation** using standard Python libraries.
@@ -23,7 +23,7 @@ Each folder represents **one completed task** as per the internship guidelines.
 
 ---
 
-## Tasks Completed
+## Tasks 
 
 ### 1. Data Analysis & Visualization using CSV
 **Folder:** `Data Analysis`  
@@ -109,3 +109,4 @@ It allows users to input matrices and perform common matrix operations through a
 ### Install Dependencies
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
