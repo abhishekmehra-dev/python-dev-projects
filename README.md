@@ -5,24 +5,6 @@ The projects demonstrate beginner-level proficiency in **data analysis**, **mach
 
 ---
 
-## Repository Structure
-
-python-dev-projects/
-├── Data Analysis/
-│ ├── demon_slayer_data_analysis.py
-│ └── characters.csv
-├── House Price Prediction/
-│ ├── house_price_prediction.py
-│ └── train.csv
-├── Matrix Operations Tool/
-│ └── matrix_tool
-└── README.md
-
-
-Each folder represents **one completed task** as per the internship guidelines.
-
----
-
 ## Tasks 
 
 ### 1. Data Analysis & Visualization using CSV
@@ -109,4 +91,5 @@ It allows users to input matrices and perform common matrix operations through a
 ### Install Dependencies
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 
