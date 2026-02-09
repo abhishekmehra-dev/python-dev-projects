@@ -1,81 +1,111 @@
-# Python Development Projects
+# Python Development – Internship Task Submission
 
-This repository contains Python programs developed to demonstrate core concepts of
-data analysis, machine learning, and numerical computation using standard Python libraries.
+This repository contains **three Python projects** completed as part of the **Python Development Internship Task**.  
+The projects demonstrate beginner-level proficiency in **data analysis**, **machine learning**, and **numerical computation** using standard Python libraries.
 
 ---
 
-## Project Structure
+## Repository Structure
 
 python-dev-projects/
-├── README.md
-├── demon_slayer_data_analysis.py
-├── house_price_prediction.py
-└── matrix_tool
+├── Data Analysis/
+│ ├── demon_slayer_data_analysis.py
+│ └── characters.csv
+├── House Price Prediction/
+│ ├── house_price_prediction.py
+│ └── train.csv
+├── Matrix Operations Tool/
+│ └── matrix_tool
+└── README.md
 
+
+Each folder represents **one completed task** as per the internship guidelines.
 
 ---
 
-## Projects Included
+## Tasks Completed
 
-### 1. Data Analysis and Visualization
+### 1. Data Analysis & Visualization using CSV
+**Folder:** `Data Analysis`  
 **File:** `demon_slayer_data_analysis.py`
 
-This script performs basic data analysis on a CSV dataset using **Pandas** and visualizes
-the results using **Matplotlib**.
+**Description:**  
+This project performs basic data analysis on a CSV dataset using the **Pandas** library.  
+The dataset is explored to understand its structure, summary statistics are calculated, and insights are visualized using **Matplotlib** and **Seaborn**.
 
-**Features:**
-- Load and inspect CSV data
-- Perform basic statistical analysis
-- Generate visualizations such as:
-  - Bar charts
-  - Scatter plots
-- Identify and interpret data patterns
+**Key Features:**
+- Loading and inspecting CSV data using Pandas  
+- Calculating summary statistics (e.g., average age)  
+- Visualizations including:
+  - Bar chart (gender distribution)
+  - Scatter plot (character number vs age)
+  - Correlation heatmap  
+
+**Objective Achieved:**  
+✔ CSV data handling  
+✔ Data analysis using Pandas  
+✔ Data visualization using Matplotlib  
 
 ---
 
-### 2. House Price Prediction (Linear Regression)
+### 2. House Price Prediction using Linear Regression
+**Folder:** `House Price Prediction`  
 **File:** `house_price_prediction.py`
 
-This script implements a **Linear Regression model** to predict house prices based on
-input features. It demonstrates a basic machine learning workflow using **Scikit-learn**.
+**Description:**  
+This project implements a **Linear Regression model** to predict house prices based on selected features.  
+It demonstrates a basic machine learning workflow using **Scikit-learn**, including data preprocessing, model training, and prediction.
 
-**Features:**
-- Data preprocessing
-- Model training using Linear Regression
-- Price prediction based on features
-- Introduction to supervised machine learning concepts
+**Key Features:**
+- Dataset loading and preprocessing  
+- Feature selection and target separation  
+- Train-test split  
+- Linear Regression model training  
+- Model evaluation using Mean Squared Error  
+- Price prediction for new input data  
+
+**Objective Achieved:**  
+✔ Understanding regression concepts  
+✔ Introduction to machine learning workflow  
+✔ Real-world prediction problem  
 
 ---
 
 ### 3. Matrix Operations Tool
+**Folder:** `Matrix Operations Tool`  
 **File:** `matrix_tool`
 
-This program is a matrix operations utility built using **Python and NumPy**. It allows
-users to perform common matrix calculations through user input.
+**Description:**  
+This project is an interactive **Matrix Operations Tool** developed using **Python and NumPy**.  
+It allows users to input matrices and perform common matrix operations through a menu-driven interface.
 
-**Features:**
-- Matrix addition and subtraction
-- Matrix multiplication
-- Matrix transpose
-- Determinant calculation
-- Structured output for readability
+**Key Features:**
+- Matrix addition and subtraction  
+- Matrix multiplication  
+- Matrix transpose  
+- Determinant calculation  
+- User input–based interactive execution  
 
----
-
-## Requirements
-
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
+**Objective Achieved:**  
+✔ Application of NumPy for numerical computation  
+✔ Understanding matrix operations  
+✔ Interactive Python programming  
 
 ---
 
-## Installation
+## Technologies Used
 
-Install required dependencies using pip:
+- Python 3.x  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
+---
+
+## How to Run the Projects
+
+### Install Dependencies
 ```bash
-pip install pandas numpy matplotlib scikit-learn
+pip install pandas numpy matplotlib seaborn scikit-learn
